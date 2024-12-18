@@ -1,0 +1,25 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.item1 {
+  background-color: rgba(45, 192, 15, 0.753);
+  height: 50px;
+  flex-grow: 4;
+}
+
+.item2 {
+  background-color: rgb(234, 20, 20);
+  flex-grow: 1;
+  height: 50px;
+}

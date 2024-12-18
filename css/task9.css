@@ -1,0 +1,66 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border: 5px solid goldenrod;
+}
+
+.main div {
+  width: 30%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+}
+
+.item1 {
+  background-color: aqua;
+}
+
+.item2 {
+  background-color: brown;
+}
+
+.item3 {
+  background-color: blue;
+}
+
+.item4 {
+  background-color: blueviolet;
+}
+
+.item5 {
+  background-color: cadetblue;
+}
+
+.item6 {
+  background-color: chartreuse;
+}
+
+.item7 {
+  background-color: chocolate;
+}
+
+.item8 {
+  background-color: cornflowerblue;
+}
+
+.item9 {
+  background-color: darkblue;
+}
+
+.item10 {
+  background-color: darksalmon;
+}

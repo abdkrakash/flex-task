@@ -1,0 +1,23 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main div {
+  width: 130px;
+  height: 240px;
+  border: 2px solid rgb(89, 89, 232);
+  background-color: blueviolet;
+  border-radius: 5px;
+}
